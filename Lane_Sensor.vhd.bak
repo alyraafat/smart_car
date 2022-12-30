@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+ENTITY Lane_Sensor IS 
+	PORT( I : IN STD_LOGIC;	
+			A,L,E,R,T: OUT STD_LOGIC_VECTOR(6 DOWNTO 0));
+END Lane_Sensor; 
+ARCHITECTURE Lans_Sensor_Arch OF Lane_Sensor IS 
+BEGIN 
+PROCESS (I)
+BEGIN
+If I = '1' THEN
+	A <= "0001000";
+	L <= "1000111";
+	E <= "0000011";
+	R <= "0101111";
+	T <= "0001111";
+END IF ;	
+END PROCESS ;
+END Lans_Sensor_Arch;
