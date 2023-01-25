@@ -1,6 +1,6 @@
 # Smart Car
 
-You have a smart self-driving car that follows a straight lane, whenever it goes out of the lane a warning message should be displayed on the screen. The car should also stop when it detects an obstacle in front of it. 
+It is a smart self-driving car made for CSEN605 course. It follows a straight lane and whenever it goes out of the lane a warning message is displayed on the 7-segment display. The car also stops when it detects an obstacle in front of it. 
 
 Tasks: 
   1)    Initially, the car should be moving using a moving part. 
